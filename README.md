@@ -40,7 +40,7 @@ import matplotlib.pyplot as plt
 img1=np.zeros((90,250),dtype='uint8')
 img2=cv2.cvtColor(img1,cv2.COLOR_BGR2RGB)
 font=cv2.FONT_HERSHEY_DUPLEX
-cv2.putText(img2,'JANANI',(5,70),font,2,(218, 112, 214),3,cv2.LINE_8)
+cv2.putText(img2,'DHANASHREE',(5,70),font,2,(218, 112, 214),3,cv2.LINE_8)
 plt.imshow(img2)
 
 
